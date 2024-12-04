@@ -1,3 +1,16 @@
+React Native Series by Dave Gray
+https://www.youtube.com/watch?v=WDunoPNBxKA
+- Expo template for web and mobile application 
+
+MacOS, installed Watchman to increase watcher limit issue due to other open React JS projects
+If watchman issues occur due to limitations, terminal this:
+watchman shutdown-server
+watchman watch-del-all
+npx expo start --clear
+
+
+---
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
